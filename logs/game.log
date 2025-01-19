@@ -1,0 +1,27 @@
+2025-01-18 20:22:02 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 20:22:02 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 20:22:02 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 20:22:02 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 20:22:02 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 20:22:02 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 22:14:50 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 22:14:50 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 22:14:50 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 22:14:50 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 22:14:50 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 22:14:50 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 22:14:58 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 22:14:58 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 22:14:58 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 22:14:58 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 22:14:58 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 22:14:58 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 22:15:10 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 22:15:10 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 22:15:10 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 22:15:10 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 22:15:10 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 22:15:10 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start
+2025-01-18 22:28:17 [main] INFO  org.sergei.game.logging.GameLogger - Game started
+2025-01-18 22:28:17 [main] ERROR org.sergei.game.logging.GameLogger - Game error
+2025-01-18 22:28:17 [main] DEBUG org.sergei.game.logging.GameLogger - Debugging game start

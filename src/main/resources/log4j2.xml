@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="INFO">
+
+    <Appenders>
+        <!-- Консольный аппендер [%t] %-5level %logger{36} - %msg%n [Thread-Name] LEVEL Logger-Name - log message-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"></PatternLayout>
+        </Console>
+
+        <!-- Файловый аппендер -->
+        <File name="FileLogger" fileName="logs/game.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"></PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Логгер для вашего приложения -->
+        <Logger name="org.sergei.game" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Logger>
+
+        <!-- Hibernate Logs -->
+        <Logger name="org.hibernate" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- Корневой логгер -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+
+    </Loggers>
+
+
+</Configuration>

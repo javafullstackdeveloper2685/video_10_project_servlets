@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/bild\ 1903x599.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons {
+    padding: 20px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 15px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: #fff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px) scale(1.05);
+}
+
+button:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0) scale(1);
+}
+
+#logContainer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#logs {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8),
+                 0 0 30px rgba(255, 255, 255, 0.5),
+                 0 0 50px rgba(255, 255, 255, 0.3);
+    background: linear-gradient(135deg, rgba(106, 17, 203, 0.8), rgba(37, 117, 252, 0.8));
+    padding: 25px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.8);
+    max-width: 700px;
+    margin: 0 auto;
+    animation: fadeInContainer 3s ease;
+}
+
+
+
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+}
